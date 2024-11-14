@@ -1,0 +1,55 @@
+.todo-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.title {
+    color: #333;
+}
+.input-container {
+    margin: 20px 0;
+}
+.heading-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.add-list-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.add-list-button:hover {
+    background-color: #218838;
+}
+.todo_main {
+    text-align: left;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #c82333;
+}
+.no-tasks {
+    color: #888;
+    font-style: italic;
+}
